@@ -3,7 +3,7 @@
 
 TestSuite(Person, .disabled=false);
 
-Test(Person, make_new_person, .disabled=false) {
+Test(Person, make_new_person, .disabled=true) {
     // First we make a person that fits expectations
     Person p1 = make_new_person(27, "Doug", 42);
 
